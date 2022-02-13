@@ -1,0 +1,52 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 */12 * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🦑 Personal metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: TLBail
+          template: classic
+          base: header, metadata
+          config_timezone: America/Montreal
+          plugin_lines: yes
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_threshold: 0%
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_ignored: dockerfile, makefile, objective-c, shaderlab, hlsl
+          plugin_languages_skipped: E428, Application-Graph-theory, Huffman-code, That-level-again-unity
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+      - name: 🦑 Personal metrics (2)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics2.svg
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
+          user: Paracetamol56
+          template: classic
+          base: ""
+          config_timezone: America/Montreal
+          plugin_gists: yes
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
