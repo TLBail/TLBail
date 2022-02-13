@@ -1,4 +1,3 @@
-![](/Banner.jpg)
 <img align="center" src="/metrics.svg" alt="Metrics" width="400">
 
 Hi, I’m Théo, I’m studying computer science in France and I love that. I’m also a maker and an open-source enthusiast. 
