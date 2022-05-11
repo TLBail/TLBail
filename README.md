@@ -38,9 +38,3 @@ Hi, I’m Théo, I’m studying computer science in France and I love that. I’
   <img alt="Android" height="26px" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
 </p>
 
-### Languages & Technologies
-
-General purpose :
-
-<p>
-  <img alt="C++" height="26px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
