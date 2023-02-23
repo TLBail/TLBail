@@ -36,5 +36,7 @@ Hi, I’m Théo, I’m studying computer science in France and I love that. I’
   <img alt="Windows" height="26px" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
   <img alt="Raspberry pi" height="26px" src="https://img.shields.io/badge/Raspberrry%20pi-87CF3E?style=for-the-badge&logo=raspberry-pi&logoColor=white"/>
   <img alt="Android" height="26px" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+  <img alt="Android" height="26px" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white"/>
+  
 </p>
 
