@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -71,14 +71,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="434.47476332260004" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="434.47476332260004" y="0" width="11.151516113676697" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="445.6262794362767" y="0" width="10.238064832601648" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="455.8643442688784" y="0" width="1.2543501367974437" height="8" fill="#9400ff"/>
-                    <rect mask="url(#languages-bar)" x="457.11869440567585" y="0" width="0.9717115222616707" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="458.09040592793747" y="0" width="0.8003820303342103" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="458.8907879582717" y="0" width="0.6183744277360902" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="459.50916238600774" y="0" width="0.4908376139922114" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="434.4715622972018" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="434.4715622972018" y="0" width="11.151433954045524" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="445.6229962512473" y="0" width="10.237989402891284" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="455.8609856541386" y="0" width="1.254340895278752" height="8" fill="#9400ff"/>
+                    <rect mask="url(#languages-bar)" x="457.1153265494173" y="0" width="0.975093447597669" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="458.09041999701503" y="0" width="0.8003761334595845" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="458.8907961304746" y="0" width="0.6183698718161245" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="459.5091660022907" y="0" width="0.4908339977092844" height="8" fill="#A97BFF"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -114,7 +114,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>281 kB</div>
+                                <div>282 kB</div>
                                 <div>0.21%</div>
                             </small>
                         </div>
@@ -1232,7 +1232,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 21 Jan 2025, 20:08:18 (timezone America/Montreal) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 22 Jan 2025, 07:28:56 (timezone America/Montreal) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
